@@ -19,8 +19,15 @@ disp(A)
 fprintf('B is:\n')
 disp(B)
 
-if rank(A)~=3
-    fprintf('The matrix A is singular. There is not solution.')
+if rank(A)~=3 
+    fprintf('The matrix A is singular.') % Suppose we have the rank(A)==rank([A B]) but rank(A)~=3. In this case, there are infinite numeber of solutions.
+    if rank(A)==rank([A B])
+        dimx=3-rank(A);
+        %t=syms(char(['t'*ones(dimx,1),(1:dimx)'+'0'-0]));
+        syms T;
+        disp(pinv(A)*B+null(A)*T)
+    else
+    end
 else
     x=linsolve(A,B);
     fprintf('The solution is:\n')
