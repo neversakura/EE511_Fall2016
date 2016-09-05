@@ -19,6 +19,7 @@ and integrate systems more effectively (3.5.2)
 
 ## Content
 * [Basic Examples] - Some sample codes of those three languages, which give you a simple taste of the languages.
+* [ProjectOne] - Examples of binomial random number generation and histogram plotting.
 
 [Matlab]: <http://www.mathworks.com/>
 [Python]: <https://www.python.org/>
@@ -27,3 +28,4 @@ and integrate systems more effectively (3.5.2)
 [matplotlib]: <https://www.scipy.org/>
 [R]: <https://www.r-project.org/>
 [Basic Examples]: <https://github.com/neversakura/EE511_Fall2016/tree/master/Basic%20Examples>
+[ProjectOne]: <https://github.com/neversakura/EE511_Fall2016/tree/master/ProjectOne>
