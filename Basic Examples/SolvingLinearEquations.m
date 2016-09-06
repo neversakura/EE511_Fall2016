@@ -19,8 +19,16 @@ disp(A)
 fprintf('B is:\n')
 disp(B)
 
-if rank(A)~=3
-    fprintf('The matrix A is singular. There is not solution.')
+if rank(A)~=3 
+    fprintf('The matrix A is singular.') % Suppose we have the rank(A)==rank([A B]) but rank(A)~=3. In this case, there are infinite numeber of solutions.
+    if rank(A)==rank([A B])
+        dimx=3-rank(A);
+        fprintf('The particular solution is:\n')
+        disp(pinv(A)*B);
+        fprintf('The homogeneous solution is:\n')
+        disp(null(A));
+    else
+    end
 else
     x=linsolve(A,B);
     fprintf('The solution is:\n')
