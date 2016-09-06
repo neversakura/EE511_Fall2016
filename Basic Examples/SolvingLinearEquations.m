@@ -23,9 +23,10 @@ if rank(A)~=3
     fprintf('The matrix A is singular.') % Suppose we have the rank(A)==rank([A B]) but rank(A)~=3. In this case, there are infinite numeber of solutions.
     if rank(A)==rank([A B])
         dimx=3-rank(A);
-        %t=syms(char(['t'*ones(dimx,1),(1:dimx)'+'0'-0]));
-        syms T;
-        disp(pinv(A)*B+null(A)*T)
+        fprintf('The particular solution is:\n')
+        disp(pinv(A)*B);
+        fprintf('The homogeneous solution is:\n')
+        disp(null(A));
     else
     end
 else
