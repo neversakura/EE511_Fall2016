@@ -13,7 +13,7 @@ First commit                                                      9/6/2016
 binomialExample=random('Binomial',10,0.5,1000,1);
 
 % the histogram of the data
-histogram(binomialExample)
+histogram(binomialExample)  % The command histogram was introduced in MATLAB 2014b. So for those of you who use elder version of MATLAB, use hist() instead.
 
 % axis labels and title
 xlabel('Bins')
