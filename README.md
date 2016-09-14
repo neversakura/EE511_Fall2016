@@ -13,6 +13,7 @@ and integrate systems more effectively (3.5.2)
 * [scipy] - Fundamental library for scientific computing (0.18.0)
 * [numpy] - Base N-dimensional array package (1.11.1)
 * [matplotlib] - Comprehensive 2D Plotting (1.5.1)
+* [scikit-learn] - Python machine learning library (0.17.1)
 
 ### R
 * [R] - A free software environment for statistical computing and graphics (3.3.1)
@@ -31,3 +32,4 @@ and integrate systems more effectively (3.5.2)
 [Basic Examples]: <https://github.com/neversakura/EE511_Fall2016/tree/master/Basic%20Examples>
 [ProjectOne]: <https://github.com/neversakura/EE511_Fall2016/tree/master/ProjectOne>
 [MASS]: <https://cran.r-project.org/web/packages/MASS/index.html>
+[scikit-learn]: <http://scikit-learn.org/stable/>
