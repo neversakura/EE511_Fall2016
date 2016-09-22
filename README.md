@@ -19,6 +19,7 @@ and integrate systems more effectively (3.5.2)
 ### R
 * [R] - A free software environment for statistical computing and graphics (3.3.1)
 * [MASS] - Support Functions and Datasets for Venables and Ripley's MASS (7.3-45)
+* [iGraph] - The network analysis package (1.0.0)
 
 ## Content
 * [Basic Examples] - Some sample codes of those three languages, which give you a simple taste of the languages.
@@ -35,3 +36,4 @@ and integrate systems more effectively (3.5.2)
 [MASS]: <https://cran.r-project.org/web/packages/MASS/index.html>
 [scikit-learn]: <http://scikit-learn.org/stable/>
 [networkx]: <https://networkx.github.io/>
+[iGraph]: <http://igraph.org/>
