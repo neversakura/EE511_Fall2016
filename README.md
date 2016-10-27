@@ -13,7 +13,7 @@ and integrate systems more effectively (3.5.2)
 * [scipy] - Fundamental library for scientific computing (0.18.0)
 * [numpy] - Base N-dimensional array package (1.11.1)
 * [matplotlib] - Comprehensive 2D Plotting (1.5.1)
-* [scikit-learn] - Python machine learning library (0.17.1)
+* [scikit-learn] - Python machine learning library (0.18)
 * [networkx] - Python language software package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks (1.11)
 
 ### R
