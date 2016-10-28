@@ -20,6 +20,7 @@ and integrate systems more effectively (3.5.2)
 * [R] - A free software environment for statistical computing and graphics (3.3.1)
 * [MASS] - Support Functions and Datasets for Venables and Ripley's MASS (7.3-45)
 * [iGraph] - The network analysis package (1.0.0)
+* [mvtnorm] - The Multivariate Normal Distribution (0.7)
 
 ## Content
 * [Basic Examples] - Some sample codes of those three languages, which give you a simple taste of the languages.
@@ -37,3 +38,4 @@ and integrate systems more effectively (3.5.2)
 [scikit-learn]: <http://scikit-learn.org/stable/>
 [networkx]: <https://networkx.github.io/>
 [iGraph]: <http://igraph.org/>
+[mvtnorm]: <http://math.furman.edu/~dcs/courses/math47/R/library/mvtnorm/html/Mvnorm.html>
