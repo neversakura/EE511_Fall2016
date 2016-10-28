@@ -25,6 +25,8 @@ and integrate systems more effectively (3.5.2)
 ## Content
 * [Basic Examples] - Some sample codes of those three languages, which give you a simple taste of the languages.
 * [ProjectOne] - Examples of binomial random number generation and histogram plotting.
+* [ProjectTwo] - Examples of visualizing binomial random graphs in three languages.
+* [ProjectFour] - Examples of random number generators for mixturn Gaussian model(GMM).
 
 [Matlab]: <http://www.mathworks.com/>
 [Python]: <https://www.python.org/>
@@ -34,6 +36,8 @@ and integrate systems more effectively (3.5.2)
 [R]: <https://www.r-project.org/>
 [Basic Examples]: <https://github.com/neversakura/EE511_Fall2016/tree/master/Basic%20Examples>
 [ProjectOne]: <https://github.com/neversakura/EE511_Fall2016/tree/master/ProjectOne>
+[ProjectTwo]: <https://github.com/neversakura/EE511_Fall2016/tree/master/ProjectTwo>
+[ProjectFour]: <https://github.com/neversakura/EE511_Fall2016/tree/master/ProjectFour>
 [MASS]: <https://cran.r-project.org/web/packages/MASS/index.html>
 [scikit-learn]: <http://scikit-learn.org/stable/>
 [networkx]: <https://networkx.github.io/>
