@@ -1,7 +1,7 @@
 %{
 This is an example to illustrate one step of EM algorithm in MATLAB.
 
-This program create a Gaussian mixture distribution sample set, with their 
+This program create a Gaussian mixture distribution sample set, with their
 model parameters being: means at (-1,-1) and (1,1); covariance matrix
 [1,0;0,1].
 
@@ -16,7 +16,7 @@ First Commit                                                   11/8/2016
 
 num=100;                      % number od data points
 mu=[1,1;-1,-1];               % each row corresponds to the mean vector of one Gaussian cluster
-sigma=[1,1];                  % this is the covariance of the Gaussians. 
+sigma=[1,1];                  % this is the covariance of the Gaussians.
 p=ones(1,2)/2;                % mixture probability of two Gaussian
 obj=gmdistribution(mu,sigma,p);
 sample=random(obj,num);       % generate the a mixture Gaussian sample set
@@ -49,6 +49,6 @@ for i=1:num
     sigmaTwo=sigmaTwo+sample(i,:)'*sample(i,:)*r(i,2);
 end
 theta(1).sigma=sigmaOne/r_k(1)-theta(1).mu'*theta(1).mu;
-theta(2).sigma=sigmaOne/r_k(2)-theta(2).mu'*theta(2).mu;
+theta(2).sigma=sigmaTwo/r_k(2)-theta(2).mu'*theta(2).mu;
 
 % One iteration completed
